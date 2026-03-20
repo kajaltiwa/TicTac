@@ -67,7 +67,7 @@ const enableBoxes =() =>{
 }
 const showWinner = (winner) =>{
     msg.innerText=`Congrataulatin, Winner is ${winner}`;
-    msgContainer.style.backgroundColor = "red"
+    msgContainer.style.backgroundColor = "pink"
     
     
     msgContainer.classList.remove("hide");
